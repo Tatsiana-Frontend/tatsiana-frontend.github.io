@@ -1,0 +1,52 @@
+.footer {
+    height: 630px;
+    position: relative;
+    &__info {
+        width: 460px;
+        background-color: $theme-color;
+        text-align: center;
+        padding: 50px 0 60px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__address {
+        font-size: 20px;
+        font-weight: 500;
+        color: #ffffff;
+        margin-bottom: 36px;
+    }
+    &__phone {
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 38px;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+    &__social {
+        width: 210px;
+        margin: 0 auto;
+    }
+    &__item {
+        text-align: center;
+    }
+    &__link {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        color: #ffffff;
+        font-size: 23px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+        line-height: 46px;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+    &__ico {
+        line-height: 27px;
+    }
+}

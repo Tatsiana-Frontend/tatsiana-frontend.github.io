@@ -1,0 +1,22 @@
+.consultation {
+    padding: 100px 0 92px;
+    background: #d0d6ea url(../img/form-bg.jpeg) no-repeat center (top / cover);
+    color: #ffffff;
+    &__title {
+        max-width: 780px;
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 75px;
+    }
+    &__descr {
+        font-family: 'Museo Sans';
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #ffffff;
+        margin-bottom: 36px;
+    }
+}
+

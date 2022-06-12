@@ -1,0 +1,47 @@
+.reviews {
+    padding: 50px 0 70px;
+    &__title {
+        padding-bottom: 70px;
+    }
+    &__card {
+        margin-bottom: 50px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__photo {
+        position: relative;
+        width: 169px;
+        height: 169px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    &__img {
+        position: absolute;
+        max-width: 200%;
+        height: auto;
+    }
+    &__text {
+        max-width: 650px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: $maintext-color;
+        margin-bottom: 10px;
+
+    }
+    &__subtitle {
+        color: #646464;
+        margin-bottom: 20px;
+    }
+    &__feedback {
+        p {
+            margin-bottom: 12px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        
+    }
+}
