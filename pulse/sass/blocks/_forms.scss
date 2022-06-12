@@ -1,0 +1,22 @@
+.form {
+    width: 300px;
+    &__input {
+        width: inherit;
+        height: 50px;
+        background-color: #ffffff;
+        font-weight: 300;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        padding: 0 20px;
+        border: none;
+        color: #4b4b4b;
+        &:focus-visible {
+            outline: none;
+        }
+    }
+    &__btn {
+        width: inherit;
+        padding: 20px 0;
+        font-size: 16px;
+    }
+}
